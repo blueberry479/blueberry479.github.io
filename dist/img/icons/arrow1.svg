@@ -1,0 +1,15 @@
+<svg id="arrow1" xmlns="http://www.w3.org/2000/svg" width="111" height="38" viewBox="0 0 111 38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #bb9c66;
+        stroke-width: 3px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M818.385,1407.71l-0.707-.7L800,1424.5l0.707,0.7Zm-17.678,16.09-0.707.7,17.678,17.49,0.707-.7Z" transform="translate(-798.5 -1405.5)"/>
+  <path class="cls-1" d="M825.385,1407.71l-0.707-.7L807,1424.5l0.707,0.7Zm-17.678,16.09-0.707.7,17.678,17.49,0.707-.7Z" transform="translate(-798.5 -1405.5)"/>
+  <path class="cls-1" d="M908,1424.5v-0.99H801v0.99H908Z" transform="translate(-798.5 -1405.5)"/>
+</svg>
