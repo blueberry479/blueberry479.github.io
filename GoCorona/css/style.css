@@ -556,7 +556,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .features__column {
-  margin-bottom: 70px;
+  margin-bottom: 105px;
 }
 .features__image {
   position: relative;
@@ -616,7 +616,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 467.98px) {
   .experts {
-    padding: 0;
+    padding: 30px 0px 0px 0px;
   }
 }
 @media (max-width: 991px) {
