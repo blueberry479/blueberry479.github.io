@@ -9,7 +9,6 @@ const form = document.getElementById('form');
 const closeBtn = document.getElementById('close');
 let store = {
     city: "Moscow",
-    feelslike: 0,
     cloudcover: 0,
     temperature: 0,
     humidity: 0,
@@ -37,7 +36,7 @@ const fetchData = async () => {
         console.log(data);
         const {
             current: {
-                feelslike,
+               
                 cloudcover,
                 humidity,
                 wind_speed: windSpeed,
@@ -55,7 +54,7 @@ const fetchData = async () => {
         } = data;
         store = {
             ...store,
-            feelslike,
+          
             observationTime,
             temperature,
             isDay,
