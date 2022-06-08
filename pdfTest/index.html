@@ -11,7 +11,7 @@
     <canvas id="my_canvas"></canvas>
     <script>
         pdfjsLib.getDocument('./file.pdf').promise.then(doc => {
-            doc.getPage(1).then(page => {
+            doc.getPage(1).promise.then(page => {
                 var myCanvas = document.getElementById("my_canvas");
                 var context = myCanvas.getContext("2d");
                 var viewport = page.getViewport(1);
